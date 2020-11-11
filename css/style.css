@@ -36,22 +36,6 @@ a {
   color: white;
 }
 
-/* Typography */
-
-a {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-p {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-}
-
 /* Buttons */
 
 .btn-primary {
@@ -75,4 +59,22 @@ p {
   margin-top: 24px;
   background-position-x: center;
   background-position-y: center;
+}
+
+.nav-link {
+  padding: 0rem;
+}
+
+/* Hamburger */
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("/img/icons/menu-dark.svg");
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px white;
 }
