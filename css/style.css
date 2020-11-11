@@ -1,0 +1,78 @@
+/*!
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* Color */
+
+.bg-orange {
+  background-color: #eb5623;
+}
+
+.bg-brown {
+  background-color: #34230d;
+}
+
+a {
+  color: #eb5623;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Typography */
+
+a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* Buttons */
+
+.btn-primary {
+  color: #fff;
+  background-color: #eb5623;
+  border-color: #eb5623;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #772a2b;
+  border-color: #772a2b;
+}
+
+.hero-img-1 {
+  height: 60vh; /* Change this number to change the height of the image */
+  min-height: auto;
+  background-image: url("../img/Hero-Img-crucenita.png"); /* Change the image itself here */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  background-position-x: center;
+  background-position-y: center;
+}
