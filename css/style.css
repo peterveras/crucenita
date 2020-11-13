@@ -29,9 +29,14 @@ body {
   background-color: #34230d;
 }
 
+.bg-darker-brown {
+  background-color: #281a09;
+}
+
 a {
   color: #eb5623;
 }
+
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -77,4 +82,12 @@ a {
 
 .navbar-toggler:focus {
   box-shadow: 0 0 0 2px white;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.card-footer {
+  background-color: white;
 }

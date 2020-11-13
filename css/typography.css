@@ -101,3 +101,7 @@ ul {
 p .text-white {
   columns: whitesmoke;
 }
+
+.text-orange {
+  color: #eb5623;
+}
