@@ -91,3 +91,13 @@ a {
 .card-footer {
   background-color: white;
 }
+
+/* Buttons */
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #772a2b;
+  border-color: #772a2b;
+  box-shadow: 0 0 0 0.25rem rgba(255, 102, 0, 0.5);
+}
